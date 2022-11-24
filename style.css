@@ -1,0 +1,1853 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body
+{
+    font-family:sans-serif;
+}
+.container
+{
+    width:100%;
+    background-color:#f6f6f6;
+}
+.header
+{
+    width:100%;
+    height:150px;
+}
+.header-up
+{
+    display: flex;
+    width:100%;
+    height:50px;
+    background-color: black;
+}
+.header-down
+{
+    display: flex;
+    width:100%;
+    height:100px;
+    background-color:#f3f3f3;
+    overflow:hidden;
+}
+.score-part
+{
+    display: flex;
+}
+#btn-scroll
+{
+    width:50px;
+    height:50px;
+    font-size: 25px;
+    border-radius: 50%;
+    color:rgb(20, 112, 210);
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 0ch;
+    border-bottom: transparent;
+    background-color: #ebe3e3;
+}
+#btn-scroll:hover
+{
+    background-color: #0268d6;
+    color:aliceblue
+}
+#btn-back
+{
+    width:50px;
+    height:50px;
+    font-size: 25px;
+    border-radius: 50%;
+    color:rgb(20, 112, 210);
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 0ch;
+    border-bottom: transparent;
+    background-color: #ebe3e3;
+}
+#btn-back:hover
+{
+    background-color: #0268d6;
+    color:aliceblue
+}
+.match1 
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match1 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match1 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match1 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match2 
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match2 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match2 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match2 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match3 
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match3 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match3 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match3 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match4
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match4 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match4 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match4 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match5 
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match5 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match5 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match5 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match6 
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match6 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match6 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match6 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match7 
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match7 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match7 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match7 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match8 
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match8 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match8 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match8 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match9
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match9 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match9 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match9 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match10 
+{
+    
+    width:150px;
+    height:100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border:1px solid #c5baba;
+    padding-left: 5px;
+}
+.match10 img
+{
+    width:25px;
+    height:25px;
+    margin-top: 5px;
+    float: left;
+}
+.match10 h3
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.match10 h4
+{
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:10px;
+}
+#sp11
+{
+    opacity: 50%;
+    margin-left:20px;
+}
+
+.logo
+{
+    width:50px;
+    height:50px;
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.logo span
+{
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.menu-left
+{
+    width:1000px;
+    height:50px;
+
+}
+.menu-left ul
+{
+    display: flex;
+    list-style: none;
+    margin-left: 30px ;
+    padding-top: 10px;
+}
+.menu-left ul li
+{
+    margin-left: 20px;
+}
+.menu-left ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+#dm-1
+{
+    height:30px;
+    z-index: 2;
+}
+#dm-1:hover
+{
+    height:150px;
+}
+#dm-1:hover ul
+{
+    visibility: visible;
+}
+#dm-1 ul
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+    width:80px;
+    height:100px;
+    margin-left: -20px;
+    margin-top: 20px;
+    padding-right: 10px;
+    visibility: hidden;
+    align-items: center;
+}
+#dm-1 ul li
+{
+    display: block;
+    width: 70px;
+    height:35px;
+    margin-right: 10px;
+    text-align: center;
+}
+#dm-1 ul li:hover
+{
+    
+    background-color: rgb(201, 194, 194);
+
+}
+#dm-1 ul li a
+{
+    color:#000;
+}
+
+#dm-2
+{
+    margin-left: 10px;
+    height:30px;
+    z-index: 2;
+}
+#dm-2:hover
+{
+    height:200px;
+}
+#dm-2:hover ul
+{
+    visibility: visible;
+}
+#dm-2 ul
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;;
+    width:200px;
+    height:150px;
+    margin-left: -50px;
+    margin-top: 20px;
+    padding-right: 10px;
+    visibility: hidden;
+    align-items: center;
+}
+#dm-2 ul li
+{
+    display: block;
+    width: 180px;
+    height:35px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+#dm-2 ul li:hover
+{
+    
+    background-color:rgb(201, 194, 194);
+
+}
+#dm-2 ul li a
+{
+    color:#000;
+}
+
+#dm-3
+{
+    margin-left: -70px;
+    height:30px;
+    z-index: 2;
+}
+#dm-3
+{
+    margin-left:-60px;
+}
+#dm-3:hover
+{
+    height:50px;
+}
+#dm-3:hover ul
+{
+    visibility: visible;
+}
+
+#dm-3 ul
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;;
+    width:100px;
+    height:100px;
+    margin-left: -30px;
+    margin-top: 20px;
+    padding-right: 10px;
+    visibility: hidden;
+    align-items: center;
+}
+#dm-3 ul li
+{
+    display: block;
+    width: 80px;
+    height:35px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+#dm-3 ul li:hover
+{
+    
+    background-color: rgb(201, 194, 194);
+
+}
+#dm-3 ul li a
+{
+    color:#000;
+}
+
+#dm-4
+{
+    margin-left: 0px;
+    height:30px;
+    z-index: 2;
+}
+#dm-4:hover
+{
+    height:300px;
+}
+#dm-4:hover ul
+{
+    visibility: visible;
+}
+#dm-4 ul
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+    width:160px;
+    height:350px;
+    margin-left: -30px;
+    margin-top: 20px;
+    padding-right:-10px;
+    visibility: hidden;
+    align-items:center;
+    font-size: 15px;
+}
+#dm-4 ul li
+{
+    display: block;
+    width: 150px;
+    height:35px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 15px;
+    text-align: justify;
+}
+#dm-4 ul li:hover
+{
+    
+    background-color: rgb(201, 194, 194);
+
+}
+#dm-4 ul li a
+{
+    color:#000;
+}
+
+#dm-5
+{
+    margin-left:-60px;
+    width:50px;
+    height:30px;
+    z-index: 2;
+}
+#dm-5:hover
+{
+    height:300px;
+}
+#dm-5:hover ul
+{
+    visibility: visible;
+}
+#dm-5 ul
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+    width:200px;
+    height:350px;
+    margin-left: -60px;
+    margin-top: 20px;
+    padding-right:-10px;
+    visibility: hidden;
+    align-items:center;
+    font-size: 15px;
+    z-index: 2;
+}
+#dm-5 ul li
+{
+    display: block;
+    width: 180px;
+    height:35px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 15px;
+    text-align: justify;
+}
+#dm-5 ul li:hover
+{
+    
+    background-color: rgb(201, 194, 194);
+
+}
+#dm-5 ul li a
+{
+    color:#000;
+}
+
+#dm-6
+{
+    margin-left:10px;
+    height:30px;
+}
+#dm-6:hover ul
+{
+    visibility: visible;
+}
+#dm-6 ul
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+    width:200px;
+    height:100px;
+    margin-left: -30px;
+    margin-top: 20px;
+    padding-right:-10px;
+    visibility: hidden;
+    align-items:center;
+    font-size: 15px;
+    z-index:2;
+}
+#dm-6 ul li
+{
+    display: block;
+    width: 190px;
+    height:35px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-top: 3px;
+    text-align: justify;
+    font-size: 15px;
+    text-align: left;
+}
+#dm-6 ul li a:hover
+{
+    
+    background-color: rgb(201, 194, 194);
+
+}
+#dm-6 ul li a
+{
+    color:#000;
+}
+
+#dm-7
+{
+    margin-left: -80px;
+}
+.menu-right
+{
+    padding-top: 12px;
+    margin-left: 100px;
+}
+.menu-right ul 
+{
+    display: flex;
+    list-style: none;
+}
+.menu-right ul li
+{
+    margin-left: 20px;
+}
+.menu-right ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.slider
+{
+    width:100%;
+    height:700px;
+    background-color: #000;
+    z-index: -1;
+    
+}
+.slider .sl-1
+{
+    display: flex;
+    width:100%;
+    background-color: #000;
+    background-blend-mode: color;
+    height:600px;
+    background-blend-mode:darken;
+    z-index: -1;
+    transition: 3s;
+   
+    
+}
+.slider .sl-1 #sp1
+{
+    width:30%;
+    margin-top: 100px;
+    margin-left: 150px;
+    color:aliceblue;
+}
+#sp1 h2
+{
+    margin-top: 15px;
+}
+#btn1
+{
+    width:100px;
+    height:41px;
+    border-radius: 20px;
+    background-color:#000;
+    color: #fff;
+    border:2px solid #fff;
+    margin-left: 20px;
+    margin-top:15pX;
+}
+.slider .sl-1 .photo1
+{
+    width:70%;
+    height:450px;
+    background-image:url(images/imgs1.jpeg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-right: 30px;
+    z-index: 1;
+    transition: 3s;
+    animation:sliderimg 30s infinite;
+}
+@keyframes sliderimg
+{
+    0%
+    {
+        background-image:url(images/imgs1.jpeg);
+    }
+    20%
+    {
+        background-image:url(images/imgs2.jpg);
+    }
+    40%
+    {
+        background-image:url(images/imgs3.jpg);
+    }
+    
+    60%
+    {
+        background-image:url(images/imgs4.jpeg) ;
+    }
+    80%
+    {
+        background-image:url(images/imgs5.jpg);
+    }
+    
+}
+.slider-down
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    color: aliceblue;
+}
+.line1
+{
+    width:200px;
+    height:5px;
+    background-color: rgb(36, 34, 34);
+    border-radius: 10px;
+    transition: 6s;
+} 
+#line1-a
+{
+    width:0px;
+    height:4px;
+    background-color: #fff;
+    
+}
+
+.line2
+{
+    width:200px;
+    height:5px;
+    background-color: rgb(36, 34, 34);
+    border-radius: 10px;
+} 
+.line2-a
+{
+    width:0px;
+    height:4px;
+    background-color: #fff;
+   
+}
+
+.line3
+{
+    width:200px;
+    height:5px;
+    background-color: rgb(36, 34, 34);
+    border-radius: 10px;
+} 
+.line3-a
+{
+    width:0px;
+    height:4px;
+    background-color: #fff;
+   
+}
+
+.line4
+{
+    width:200px;
+    height:5px;
+    background-color: rgb(36, 34, 34);
+    border-radius: 10px;
+} 
+.line4-a
+{
+    width:0px;
+    height:4px;
+    background-color: #fff;
+    
+}
+
+.line5
+{
+    width:200px;
+    height:5px;
+    background-color: rgb(36, 34, 34);
+    border-radius: 10px;
+} 
+.line5-a
+{
+    width:0px;
+    height:4px;
+    background-color: #fff;
+    
+}
+.sld1
+{
+  
+    margin-left: 10px;
+    border-radius:10px;
+    padding: 5px;
+   
+   
+} 
+.sld2
+{
+    
+   
+    border-radius:10px;
+    padding: 5px;
+    
+    
+}
+
+.sld3
+{
+   
+    border-radius:10px;
+    padding: 5px;
+}
+.sld4
+{
+   
+    border-radius:10px;
+    padding: 5x;
+   
+}
+.sld5
+{
+    margin-right: 10px;
+   
+    border-radius:10px;
+    padding:5px;
+   
+}
+.main-down
+{
+    display:flex;
+    width:100%;
+}
+.right-part
+{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+}
+.section1
+{
+   
+    
+    padding-top: 30px;
+    width:950px;
+    height:300px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+.sec1-news-part
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.section1 h1
+{
+    margin-top: -20px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.section1 hr
+{
+    margin-bottom: 30px;
+}
+.part-1
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/wembanyama-1.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.part-1:hover
+{
+    background-size: 120%;
+}
+.part-1 h2
+{
+    font-size: 18px;
+    margin-top: 170px;
+    font-weight: bold;
+}
+.part-2
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/GettyImages-1243820142.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+}
+.part-2:hover
+{
+    background-size: 120%;
+}
+.part-2 h2
+{
+    font-size: 18px;
+    margin-top: 170px;
+    font-weight: bold;
+}
+.part-3
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/scoot.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.part-3:hover
+{
+    background-size: 120%;
+}
+.part-3 h2
+{
+    font-size: 18px;
+    margin-top: 170px;
+    font-weight: bold;
+}
+.section2
+{
+    padding-top: 30px;
+    width:950px;
+    height:250px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.sec2-news-part
+{
+    width:950px;
+    height:200px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.sec2-news-part
+{
+    display: flex;
+    justify-content: space-between;
+}
+.section2 h1
+{
+    margin-top: -20px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.sec2-part-1
+{
+    width:220px;
+    height:120px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/16x9NBASeasonPreview-2.png?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s; 
+} 
+.sp1 
+{
+    font-size:16px;
+}
+.sp2 
+{
+    font-size: 15px;
+}
+.sp3
+{
+    font-size: 13px;
+    opacity:50%;
+}
+.wr-1
+{
+   width:250px;
+   height:200px;
+   margin-left:10px;
+}
+.wr-2
+{
+    width:250px;
+    height:200px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.sec2-part-2
+{
+    width:220px;
+    height:120px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/GettyImages-1306600548-1-e1664990501987.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left:10px;
+    transition: 3s; 
+}      
+.section3
+{
+    width:950px;
+    height:300px;
+    background-color: #fff;
+    margin-top:30px;
+    margin-left:100px;
+    padding-top:25px;
+}
+
+.sec3-news-part
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.section3 h1
+{
+    margin-top: -20px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.section3 .part-1
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/4.png?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.section3 .part-1:hover
+{
+    background-size: 120%;
+}
+.section3 .part-1 h2
+{
+    font-size: 18px;
+    margin-top: 170px;
+    font-weight: bold;
+}
+.section3 .part-2
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/3.png?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+}
+.section3 .part-2:hover
+{
+    background-size: 120%;
+}
+.section3 .part-2 h2
+{
+    font-size: 18px;
+    margin-top: 170px;
+    font-weight: bold;
+}
+.section3 .part-3
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/GMSurvey-1.png?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.section3 .part-3:hover
+{
+    background-size: 120%;
+}
+.section3 .part-3 h2
+{
+    font-size: 18px;
+    margin-top: 170px;
+    font-weight: bold;
+}
+.section4
+{
+    width:950px;
+    background-color:#fff;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.sec4-part1
+{
+    display: flex;
+    height:180px;
+}
+.section4 h1
+{
+    margin-top: -20px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.sec4-part1 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/GettyImages-1243803875-e1665199766219.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sp4
+{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.sp5
+{
+    font-size: 16px;
+}
+.sp6
+{
+    font-size:13px;
+    opacity:50%;
+}
+.left-part
+{
+    width:30%;
+}
+.lp-1
+{
+    width:350px;
+    height:800px;
+    background-color:#fff;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 3%;
+}
+#sp9
+{
+    display: flex;
+    padding-bottom: 35px;
+}
+#sp9 h2
+{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#sp9 a
+{
+    text-decoration: none;
+    color:rgb(64, 150, 221);
+    margin-top: 10px;
+    margin-left: 150px;
+}
+#sp9 a:hover
+{
+    text-decoration:underline;
+}
+.lp-1 p
+{
+    border-top: 1px solid rgb(119, 115, 115);
+    width:320px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 50%;
+    padding-top: 15px;
+}
+.lp-2
+{
+    width:350px;
+    height:580px;
+    background-color:#fff;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 3%;;
+}
+.lp-2 p
+{
+    border-top: 1px solid rgb(119, 115, 115);
+    width:320px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+   
+}
+.lp-2 p a
+{
+    text-decoration: none;
+    color:#0268d6;
+    font-weight: bolder;
+    margin-left: 30px;
+    
+   
+}
+.lp-2 p a:hover
+{
+    text-decoration:underline;
+}
+.lp-2 img
+{
+    width:20px;
+    height:30px;
+    margin-left: -50px;
+    margin-top:20px;
+}
+.lp-3
+{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height:250px;
+    background-color:#fff;
+    margin-top: 30px;
+    margin-left: 30px; 
+    border-radius:5%;;
+}
+.lp-3 h2 
+{
+    font-size: 18px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.lp-3 img
+{
+    width:30px;
+    height:30px;
+    float: left;
+    margin-left:65px;
+    margin-top: 20px;
+}
+.lp-4
+{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height:400px;
+    background-color:#fff;
+    margin-top: 30px;
+    margin-left: 30px; 
+    border-radius:5%;;  
+    opacity:65%;
+}
+.lp-4 p
+{
+    border-top: 1px solid rgb(119, 115, 115);
+    width:320px;
+    height:50px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+   
+}
+.lp-4 p a
+{
+    text-decoration: none;
+    color:#0268d6;
+    font-weight: bolder;
+    margin-left:-10px;
+    
+   
+}
+.lp-4 p a:hover
+{
+    text-decoration:underline;
+}
+#sp10
+{
+    width:320px;
+    height:380px;
+    border-top:1px solid rgb(95, 91, 91);
+    margin-top: 20px;
+}
+.lp-5
+{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height:500px;
+    background-color:#fff;
+    margin-top: 30px;
+    margin-left: 30px; 
+}
+.lp-5 img
+{
+    margin-top: 35px;
+    margin-left: 150px;
+}
+.lp-5 h2
+{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.lp-5 input
+{
+    width:280px;
+    height:41px;
+    margin-left:32px;
+    margin-top:30px;
+    background-color:#f3f3f3;
+    border: 0ch;
+    border-radius: 5px;
+    padding-left:5px ;
+    color:#837c7c
+}
+.lp-5 button
+{
+    width:280px;
+    height:55px;
+    margin-left: 32px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #000;
+    color: aliceblue;
+}
+.lp-5 button:hover
+{
+    background-color:#f3f3f3;
+    color:#000;
+}
+.lp-5-up
+{
+    width:350px;
+    height:100px;
+    background-color:#051c2d;
+    padding-bottom: 15px;
+}
+.lp-5 p
+{
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 25px;
+    opacity:50%;
+}
+.sec4-part2
+{
+    display: flex;
+    height:180px;
+}
+
+.sec4-part2 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/GettyImages-1243779330-scaled.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.section4-part2 .nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sec4-part3
+{
+    display: flex;
+    height:180px;
+}
+
+.sec4-part3 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/morant-bane.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.sec4-part3 .nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sec4-part4
+{
+    display: flex;
+    height:180px;
+}
+
+.sec4-part4 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/lebron-dame-2021-22-cropped.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.sec4-part4 .nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sec4-part5
+{
+    display: flex;
+    height:180px;
+}
+
+.sec4-part5 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/Gold-Blooded-Promo-Template-v2-Ep416x9.png?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.sec4-part5 .nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sec4-part6
+{
+    display: flex;
+    height:180px;
+}
+
+.sec4-part6 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/02/lebron021622.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.sec4-part6 .nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sec4-part7
+{
+    display: flex;
+    height:180px;
+}
+
+.sec4-part7 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/05/GettyImages-1240560416-scaled-e1652392260270.jpeg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.sec4-part7 .nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sec4-part8
+{
+    display: flex;
+    height:180px;
+}
+
+.sec4-part8 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/domantas-sabonis-iso-looks.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.sec4-part8 .nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sec4-part9
+{
+    display: flex;
+    height:180px;
+}
+
+.sec4-part9 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/10/GettyImages-1243732194-scaled.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.section4-part9 .nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.sec4-part10
+{
+    display: flex;
+    height:180px;
+}
+
+.sec4-part10 .foto-part
+{
+    width:270px;
+    height:150px;
+    background-image: url(https://cdn.nba.com/manage/2022/09/USATSI_19121549-1-scaled.jpg?w=384&h=224);
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition: 3s;
+}
+.sec4-part10 .nw-part 
+{
+    width:600px;
+    height:200px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.footer
+{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    height:450px;
+    background-color: #000;
+    margin-top: 30px;
+}
+.footer-up
+{
+    display: flex;
+    width:100%;
+    height:65%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.footer-up p
+{
+    color:aliceblue;
+    font-size:12px;
+}
+.ft-up1
+{
+    margin-left: 30px;
+}
+.ft-up1 ul
+{
+    list-style: none;
+}
+.ft-up1 ul li
+{
+    margin-top: 10px;
+}
+.ft-up1 ul li a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+.ft-up1 ul li a:hover
+{
+   text-decoration: underline;
+}
+
+.ft-up2
+{
+    margin-left: 100px;
+}
+.ft-up2 ul
+{
+    list-style: none;
+}
+.ft-up2 ul li
+{
+    margin-top: 10px;
+}
+.ft-up2 ul li a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+.ft-up2 ul li a:hover
+{
+   text-decoration: underline;
+}
+.ft-up3
+{
+    margin-left: 100px;
+}
+.ft-up3 ul
+{
+    list-style: none;
+}
+.ft-up3 ul li
+{
+    margin-top: 10px;
+}
+.ft-up3 ul li a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+.ft-up3 ul li a:hover
+{
+   text-decoration: underline;
+}
+.ft-up4
+{
+    margin-left: 100px;
+}
+.ft-up4 ul
+{
+    list-style: none;
+}
+.ft-up4 ul li
+{
+    margin-top: 10px;
+}
+.ft-up4 ul li a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+.ft-up4 ul li a:hover
+{
+   text-decoration: underline;
+}
+.ft-up5
+{
+    margin-left:400px;
+}
+.ft-up5 ul
+{
+    list-style: none;
+}
+.ft-up5 ul li
+{
+    margin-top: 10px;
+}
+.ft-up5 ul li a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+.ft-up5 ul li a:hover
+{
+   text-decoration: underline;
+}
+.footer hr
+{
+    width: 1400px;
+    margin-left: 55px;
+}
+.footer-down
+{
+    display: flex;
+    width:100%;
+    height:35%;
+}
+.ft-down1
+{
+    width:50%;
+    color:aliceblue;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.sp7 
+{
+    font-size: 14px;
+}
+.sp8 
+{
+    font-size: 16px;
+}
+.ft-down2
+{
+    margin-top: 30px;
+    margin-left: 270px;
+}
+.ft-down2 ul
+{
+    display: flex;
+    list-style: none;
+}
+.ft-down2 ul li
+{
+    margin-left: 20px;
+}
+#fbicon
+{
+    width:35px;
+    height:35px;
+    margin-top: -5px;
+}
+#insicon
+{
+    width:25px;
+    height:25px;
+}
+#snpicon
+{
+    width:25px;
+    height:25px;
+    border-radius: 15%;
+}
+#tkticon
+{
+    width:41px;
+    height:41px;
+    margin-top: -8px;
+}
+#twicon
+{
+    width:25px;
+    height:25px;
+    border-radius: 15%;
+}
+#yticon
+{
+    width:25px;
+    height:25px;
+    border-radius: 15%;
+}

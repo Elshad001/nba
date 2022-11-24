@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA.com-clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!--header-start-->
+        <div class="header">
+            <div class="header-up">
+                <div class="logo"><span><img src="https://cdn.nba.com/logos/leagues/logo-nba.svg" alt=""></span></div>
+                <div class="menu-left">
+                    <ul>
+                        <li id="dm-1" ><a href="#">Games</a>  
+                            <ul  >
+                                 <li><a href="#" >Home</a></li>
+                                <li><a href="#" >Tickets</a></li>
+                            </ul>
+                        </li>
+                        <li id="dm-2" ><a href="#">Schedule</a>
+                            <ul >
+                                <li><a href="#">2022-2023 Season Schedule</a></li>
+                                <li><a href="#">League Pass Schedule</a></li>
+                                <li><a href="#">Key Dates</a></li>
+                                <li><a href="#">Tickets</a></li>
+                            </ul>
+                        </li>
+                        <li id="dm-3" ><a href="#">Watch</a>
+                            <ul>
+                                <li><a href="#">Featured</a></li>
+                                <li><a href="#">NBA TV</a></li>
+                            </ul>
+                        </li>
+                        <li id="dm-4" ><a href="#">News</a>
+                            <ul >
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Top Stories</a></li>
+                                <li><a href="#">Season Preview</a></li>
+                                <li><a href="#">30 Teams in 30 Days</a></li>
+                                <li><a href="#">New Uniforms</a></li>
+                                <li><a href="#">Free Agency</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Writer Archive</a></li>
+                                <li><a href="#">More</a></li>
+                            </ul> 
+                        </li>
+                        <li id="dm-5"><a href="#">Stats</a>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Players</a></li>
+                                <li><a href="#">Teams</a></li>
+                                <li><a href="#">Leaders</a></li>
+                                <li><a href="#">Stats 101</a></li>
+                                <li><a href="#">Cume Stats</a></li>
+                                <li><a href="#">Media Central Game Stats</a></li>
+                                <li><a href="#">Draft</a></li>
+                                <li><a href="#">Quick Links</a></li>
+                                <li><a href="#">Contact US</a></li> 
+                            </ul>
+                        </li>
+                        <li id="dm-6"><a href="#">Standings</a>
+                            <ul>
+                                <li><a href="#">2021-2022 Season</a></li>
+                                <li><a href="#">2022-2023 Preseason Results</a></li>
+                            </ul>
+                        </li>
+                        <li id="dm-7"><a href="#">Teams</a></li>
+                        <li><a href="#">Players</a></li>
+                        <li><a href="#">Season Preview</a></li>
+                        <li><a href="#">Fantasy</a></li>
+                        <li><a href="#">NBABet</a></li>
+                    </ul>
+                </div>
+                <div class="menu-right">
+                    <ul>
+                        <li><a href="#">League Pass</a></li>
+                        <li><a href="#">Store</a></li>
+                        <li><a href="#">Tickets</a></li>
+                        <li><a href="#"><i  id="grid-icon" class="fa-solid fa-bars"></i></a></li>
+                        <li><a href="#">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-down" id="headerDown">
+                <div class="date-part">
+                    <div class="date">Thu,Oct,08 <i class="fa-solid fa-caret-down"></i></div>
+                    <div class="hidescore-btn"></div>
+                </div>
+                <div class="score-part" id="score-part">
+                    <div class="match1">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg" alt=""></span>
+                        <h3>CHI</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg" alt=""></span>
+                        <h4>TOR</h4>
+                        </p>
+                    </div>
+                    <div class="match2">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg" alt=""></span>
+                        <h3>WAS</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg" alt=""></span>
+                        <h4>CHA</h4>
+                        </p>
+                    </div>
+                    <div class="match3">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg" alt=""></span>
+                        <h3>PHI</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg" alt=""></span>
+                        <h4>CLE</h4>
+                        </p>
+                    </div>
+                    <div class="match4">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612745/global/L/logo.svg" alt=""></span>
+                        <h3>HOU</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg" alt=""></span>
+                        <h4>MIA</h4>
+                        </p>
+                    </div>
+                    <div class="match5">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg" alt=""></span>
+                        <h3>PHE</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg" alt=""></span>
+                        <h4>DEN</h4>
+                        </p>
+                    </div>
+                    <div class="match6">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg" alt=""></span>
+                        <h3>OKC</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg" alt=""></span>
+                        <h4>DET</h4>
+                        </p>
+                    </div>
+                    <div class="match7">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg" alt=""></span>
+                        <h3>MEM</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612753/global/L/logo.svg" alt=""></span>
+                        <h4>ORL</h4>
+                        </p>
+                    </div>
+                    <div class="match8">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg" alt=""></span>
+                        <h3>POR</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg" alt=""></span>
+                        <h4>GSW</h4>
+                        </p>
+                    </div>
+                    <button id="btn-scroll">></button>
+                    <div class="match1">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg" alt=""></span>
+                        <h3>CHI</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg" alt=""></span>
+                        <h4>TOR</h4>
+                        </p>
+                    </div>
+                    <div class="match1">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg" alt=""></span>
+                        <h3>WAS</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg" alt=""></span>
+                        <h4>CHA</h4>
+                        </p>
+                    </div>
+                    <div class="match1">
+                        <p>Final<span id="sp11"><span>League Pass</span></p>
+                        <p>
+                        <span id="sp12"><img src="https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg" alt=""></span>
+                        <h3>PHI</h3>
+                        </p>
+                        <br>
+                        <p>
+                        <span id="sp13"><img src="https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg" alt=""></span>
+                        <h4>CLE</h4>
+                        </p>
+                    </div>
+                    <button id="btn-back"> < </button>
+
+                </div>
+            </div>
+        </div>
+        <!--header-end-->
+        <!--main-start-->
+        <div class="main">
+            <div class="slider">
+                <div class="sl-1">
+                    
+                    <span id="sp1">
+                    <h1>2022-23 KIA SEASON PREVIEW</h1>
+                    <br>
+                    <h3>
+                        2022-23 Kia Season Preview: Team-by-team previews, analysis, predictions, fantasy
+                        <br>
+                         guide, GM Survey and more.
+                    </h3>
+                    <br>
+                    <button id="btn1">MORE</button>
+                    <br>
+                    <h2>RELATED CONTENT</h2>
+                    <br>
+                    <h3>
+                        Recap of busy 2022 NBA offseason
+                        <br>
+                        What to expect from all 15 teams in the West
+                        <br>
+                        What to expect from all 15 teams in the East</h3>
+                 </span>
+                 <div class="photo1" id="photo1"></div> 
+                </div>
+                <div class="slider-down">
+                <div class="sld1" id="sld1"  onclick="bg()">
+                    <div class="line1" >
+                        <div id="line1-a"></div>
+                    </div>
+                    <br>
+                    <span>
+                        <h5>SEASON PREVIEW</h5>
+                        <br>
+                        <h4>2022-23 KIA SEASON PREVIEW</h4>
+                    </span>
+                </div>
+                <div class="sld2" >
+                    <div class="line2"><div id="line2-a"></div></div>
+                    <br>
+                    <span>
+                        <h5>FEATURE</h5>
+                        <br>
+                        <h4>ALL-ACCESS:HAWKS PRACYTISE IN ABU<br>
+                             DHABI
+                        </h4>
+                    </span>
+                </div>
+                <div class="sld3">
+                    <div class="line3"><div class="line3-a"></div></div>
+                    <br>
+                    <span>
+                        <h5>ANALYSIS</h5>
+                        <br>
+                        <h4>CAN NUGGETS reach full-strength<br>
+                            WEST finals this season
+                        </h4>
+                    </span>
+                </div>
+                <div class="sld4">
+                    <div class="line4"><div class="line4-a"></div></div>
+                    <br>
+                    <span>
+                        <h5>GLOBAL GAMES</h5>
+                        <br>
+                        <h4>HAWKS,BUCKS face-off in preseason game<br>
+                            from ABU DHABI
+                        </h4>
+                    </span>
+                </div>
+                <div class="sld5">
+                    <div class="line5"><div class="line5-a"></div></div>
+                    <br>
+                    <span>
+                        <h5>GM SURVEY</h5>
+                        <br>
+                        <h4>NBA APP GM SURVEY:2022-23 <br>
+                            PREDICTIONS
+                        </h4>
+                    </span>
+                </div>
+                </div>
+            </div>
+            <div class="main-down">
+                <div class="right-part">
+                    <div class="section1">
+                        <h1>Trending Now</h1>
+                        <div class="sec1-news-part">
+                            <div class="part-1">
+                                <h2>BEST OF PHANTOM:VICTOR<br>
+                                     WENBANYAMA
+                                </h2>
+                            </div>
+                            <div class="part-2">
+                                <h2>YOUNG SCORES 31,GOES 7-<br>
+                                    FOR-9 FROM DEEP IN..
+                                </h2>
+                            </div>
+                            <div class="part-3">
+                                <h2>BEST OF PHANTOM:SCOOT<br>
+                                    HENDERSON
+                               </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section2">
+                        <h1 class>FULL COVERAGE</h1>
+                        <div class="sec2-news-part">
+                            <div class="sec2-part-1"></div>
+                            <h2 class="wr-1">
+                                <span class="sp1">2022-23 KIA SEASON PREVIEW</span>
+                                <br>
+                                <span class="sp2">See the GM survey, analysis and<br>previews for all 30 teams.</span>
+                                <br>
+                                 <span class="sp3">October 6, 2022</span>
+                            </h2>
+                            <div class="sec2-part-2"></div>
+                            <h2 class="wr-2">
+                                <span class="sp1">2022-23 FANTASY DRAFT KIT</span>
+                                <br>
+                                <span class="sp2">Get ready for your draft with rankings,<br> strategies & more.</span>
+                                <br>
+                                 <span class="sp3">October 6, 2022</span> 
+                            </h2>
+                        </div>   
+                    </div> 
+                    <div class="section3">
+                            <h1>NBA APP SEASON PREVIEW</h1>
+                            <div class="sec3-news-part">
+                                <div class="part-1">
+                                    <h2>WHAT TO EXPECT FROM ALL<br>
+                                        15 TEAMS IN THE WEST
+                                    </h2>
+                                </div>
+                                <div class="part-2">
+                                    <h2>WHAT TO EXPECT FROM ALL<br>
+                                        15 TEAMS IN THE EAST    
+                                    </h2>
+                                </div>
+                                <div class="part-3">
+                                    <h2>NBA GM SURVAY:QUESTIONS<br>
+                                        BEFORE 2022-23 SEASON
+                                   </h2>
+                                </div>
+                            </div>
+                    </div> 
+                    <div class="section4">
+                        <div class="sec4-part1">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    SUGGS SUSTAINS LEFT KNEE SPRAIN IN PRESEASON GAME
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    Orlando's 2nd-year guard avoided serious injury and his timeline
+                                    for return will depend on his response to treatment.
+                                </span>
+                                <br><br>
+                              <span class="sp6">October 8, 2022</span>    
+                            </div>
+                        </div>
+                        <div class="sec4-part2">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    WEMBANYAMA, HENDERSON DOMINATE THE HEADLINES 
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    Prospects Victor Wembanyama and Scoot Henderson deliver memorable performances in their 2 exhibition games in Las Vegas.
+                                </span>
+                                <br><br>
+                              <span class="sp6">October 7, 2022</span>    
+                            </div>
+                        </div>
+                        <div class="sec4-part3">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    MORANT, BANE FORM FORMIDABLE BACKCOURT IN MEMPHIS  
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    The tandem of Ja Morant and Desmond Bane is already great, and should only get better with more experience. 
+                                </span>
+                                <br><br>
+                              <span class="sp6">October 8, 2022</span>    
+                            </div>
+                        </div>
+                        <div class="sec4-part4">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    NBA LEAGUE PASS WATCH GUIDE: PART 1
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    Here are 20 must-watch games on NBA League Pass during the 2022 calendar year.
+                                </span>
+                                <br><br>
+                              <span class="sp6">October 5, 2022</span>    
+                            </div>
+                        </div>
+                        <div class="sec4-part5">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    GOLD BLOODED, EP. 4: COMEBACK KLAY 
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    Warriors fans welcome back Klay Thompson after his 2 1/2-year absence from the game and the
+                                     Warriors make their presence felt at NBA All-Star weekend.
+                                </span>
+                                <br><br>
+                              <span class="sp6">October 6, 2022</span>    
+                            </div>
+                        </div>
+                        <div class="sec4-part6">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    WHICH TEAM IS PLAYOFF-BOUND IN 2022-23?
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    NBA TV's analysts pick which 1 team that made the playoffs in 2021-22 will miss out
+                                     because another squad is jumping up to grab that spot.
+                                </span>
+                                <br><br>
+                              <span class="sp6">October 5 2022</span>    
+                            </div>
+                        </div>
+                        <div class="sec4-part7">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    FANTASY BASKETBALL: UPDATED TOP 150 RANKING
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    See where the top NBA players land in the latest NBA Fantasy ranking from Rotowire.
+                                </span>
+                                <br><br>
+                              <span class="sp6">October 6, 2022</span>    
+                            </div>
+                        </div>
+                        <div class="sec4-part8">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    Q&A: SABONIS SEES PLAYOFFS AS REALISTIC GOAL
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    Sacramento hasn't made the playoffs in an NBA-record 16 seasons, but All-Star big man 
+                                    Domantas Sabonis is confident the slide will soon be over. 
+                                </span>
+                                <br><br>
+                              <span class="sp6">October 4, 2022</span>    
+                            </div>
+                        </div>
+                        <div class="sec4-part9">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    BRUNSON'S STEADY HAND JUST WHAT KNICKS NEEDED
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    Jalen Brunson's leadership, poise and experience will be much appreciated in New York this season.
+                                </span>
+                                <br><br>
+                              <span class="sp6">October 5, 2022</span>    
+                            </div>
+                        </div>
+                        <div class="sec4-part10">
+                            <div class="foto-part"></div>
+                            <div class="nw-part">
+                                <span class="sp4">
+                                    RECAP OF BUSY 2022 NBA OFFSEASON
+                                </span>
+                                <br>
+                                <span class="sp5">
+                                    What were the top storylines since the Warriors claimed the 2022 title? We've got you covered.
+                                </span>
+                                <br><br>
+                              <span class="sp6">September 28, 2022</span>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-part">
+                    <div class="lp-1">
+                        <span id="sp9">
+                            <h2>HEADLINES</h2>
+                            <a href="">see more</a>
+                        </span>
+                        <p>
+                            Green stepping away from team after<br>
+                            altercation 
+                        </p>
+                        <p>
+                            Suggs sustains left knee sprain in<br>
+                            preseason game
+                        </p>
+                        <p>
+                            Spurs practice, fair brings a bit of joy to<br>
+                             Uvalde
+                        </p>
+                        <p>
+                            Silver praises Wembanyama, international<br>
+                             stars
+                        </p>
+                        <p>
+                            France picks Wembanyama for World Cup<br>
+                             qualifying
+                        </p>
+                        <p>
+                            France hopes Embiid joins team for 2024<br>
+                             Olympics
+                        </p>
+                        <p>
+                            Reports: Lakers extend GM Pelinka<br>
+                             through 2026
+                        </p>
+                        <p>
+                            NBA GM Survey: Questions before 2022-<br>
+                            23 season
+                        </p>
+                        <p>
+                            Pelicans' Hayes (torn left UCL) out<br>
+                             indefinitely
+                        </p>
+                        <p>
+                            What to expect from all 15 teams in the<br>
+                             East
+                        </p>
+                        <p>
+                            What to expect from all 15 teams in the<br>
+                             East
+                        </p>
+                        <p>
+                            Get in the game: Vote Nov. 8
+                        </p>
+                    </div>
+                    <div class="lp-2">
+                        <span id="sp9">
+                            <h2>MORE LEAHUE INFO</h2>
+                        </span>
+                        <p>
+                             <img src="https://cdn.nba.com/logos/leagues/logo-gleague.svg" alt="">
+                             <a href="#">NBA G League</a> 
+                        </p>
+                        <p>
+                            <img src="https://cdn.nba.com/logos/leagues/logo-wnba.svg" alt="">
+                           <a href="#">WNBA</a>
+                        </p>
+                        <p>
+                            <img src="https://cdn.nba.com/logos/leagues/logo-2k.svg" alt="">
+                            <a href="#">NBA 2K League</a>
+                        </p>
+                        <p>
+                            <img src="https://cdn.nba.com/logos/leagues/logo-nbacares.svg" alt="">
+                            <a href="#">NBA Cares</a>
+                        </p>
+                        <p>
+                            <img src="https://cdn.nba.com/logos/leagues/logo-jr-nba.svg" alt="">
+                            <a href="#">Jr.NBA</a>
+                        </p>
+                        <p>
+                            <img src="https://cdn.nba.com/logos/leagues/logo-bal.svg" alt="">
+                            <a href="#">Basketball Africa League</a>
+                        </p>
+                        <p>
+                            <img src="https://cdn.nba.com/logos/leagues/logo-nbafoundation.svg" alt="">
+                            <a href="#">NBA Foundation</a>
+                        </p>
+                        <p>
+                            <img src="https://cdn.nba.com/logos/leagues/logo-sjc.svg" alt="">
+                            <a href="#">National Basketball Social<br>Justice Coalition</a>
+                        </p>
+                    </div>
+                    <div class="lp-3">
+                            <h2>FOLLOW THE NBA</h2>
+                            <span id="sp10">
+                                <img src="https://cdn.nba.com/next/social/icon-facebook-color.svg" alt="">
+                                <img src="https://cdn.nba.com/next/social/icon-instagram-color.svg" alt="">
+                                <img src="https://cdn.nba.com/next/social/icon-snapchat-color.svg" alt="">
+                                <img src="https://cdn.nba.com/next/social/icon-tiktok-color.svg" alt="">
+                                <img src="https://cdn.nba.com/next/social/icon-twitter-color.svg" alt="">
+                                <img src="https://cdn.nba.com/next/social/icon-youtube-color.svg" alt="">
+                                <img src="https://cdn.nba.com/next/social/icon-twitch-color.svg" alt="">
+                        </span>
+                    </div>
+                    <div class="lp-4">
+                        <span id="sp9">
+                            <h2>QUICK LINKS</h2>
+                        </span>
+                        <p>
+                             <a href="#">Fantasy</a> 
+                        </p>
+                        <p>
+                           <a href="#">NBA History</a>
+                        </p>
+                        <p>
+                            <a href="#">NBA Official</a>
+                        </p>
+                        <p>
+                            <a href="#">Key Dates</a>
+                        </p>
+                        <p>
+                            <a href="#">LockerVision</a>
+                        </p>
+                        <p>
+                            <a href="#">NBA Awards</a>
+                        </p>
+                        <p>
+                            <a href="#">2022 Summer League</a>
+                        </p>
+                        <p>
+                            <a href="#">022 NBA Playoffs</a>
+                        </p>
+                    </div>
+                    <div class="lp-5">
+                        <div class="lp-5-up">
+                           <img src="https://cdn.nba.com/logos/leagues/logo-nba.svg" alt="">
+                           
+                            </p>
+                        </div>
+                        <div class="lp-5-down">
+                            <h2>WANT EVERY HEADLINE RIGHT AT YOUR<br>
+                                FINGERTIPS? SIGN UP TO RECEIVE NBA<br>
+                                 EMAILS!
+                               </h2>
+                               <input type="email" value="Email Address">
+                               <button>Submit</button>
+                               <p>By clicking "Submit", you agree to the Terms and Conditions<br>
+                                   and Privacy Policy. You agree that your personal information<br>
+                                   will be used to send you messages about NBA related<br>
+                                   products and services, and share your personal information<br>
+                                    with NBA partners and affiliates so that they can also<br>
+                                    contact you about products and services that might be of<br>
+                                   interest to you.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-up">
+                <div class="ft-up1">
+                    <p>NBA ORGANIZATIONS</p>
+                    <ul>
+                        <li><a href="#">NBA Official</a></li>
+                        <li><a href="#">NBA Careers</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="ft-up2">
+                    <p>NBA INITIATIVES</p>
+                    <ul>
+                        <li><a href="#">NBA Cares</a></li>
+                        <li><a href="#">Jr.NBA</a></li>
+                        <li><a href="#">NBA Foundation</a></li>
+                        <li><a href="#">Social Justice Coalition</a></li>
+                    </ul>
+                </div>
+                <div class="ft-up3">
+                    <p>ACROSS THE LEAGUE</p>
+                    <ul>
+                        <li><a href="#">NBA Communication</a></li>
+                        <li><a href="#">Lockervision</a></li>
+                        <li><a href="#">NBA Transactions</a></li>
+                    </ul>
+                </div>
+                <div class="ft-up4">
+                    <p>SHOP</p>
+                    <ul>
+                        <li><a href="#">Global Stores</a></li>
+                        <li><a href="#">NYC Store</a></li>
+                        <li><a href="#">NBA Auctions</a></li>
+                        <li><a href="#">NBA Photostore</a></li>
+                    </ul>
+                </div>
+                <div class="ft-up5">
+                    <p>SUBSCRIPTIONS</p>
+                    <ul>
+                        <li><a href="#">League Pass</a></li>
+                        <li><a href="#">Customer Support</a></li>    
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-down">
+                <div class="ft-down1">
+                    <span class="sp7">© 2022 NBA Media Ventures, LLC. All rights reserved.</span>
+                    <br>
+                    Privacy Policy | Terms of Use | Accessibility and Closed Captions | 
+                    Do Not Sell My Personal Information | Customer Support | Manage Cookies
+                    <br>
+                    If you are having difficulty accessing any content on this website, please visit our Accessibility page.
+                    <br>
+                    NBA.com is part of Warner Media, LLC’s Turner Sports & Entertainment Digital Network
+                    <br>
+                    <span class="sp8">Warner Media</span>
+                </div>
+                <div class="ft-down2">
+                    <ul>
+                        <li><a href=""><img id="fbicon" src="https://cdn.pixabay.com/photo/2020/08/25/02/16/facebook-5515461_640.png" alt=""></a></li>
+                        <li><a href=""><img id="insicon" src="data:image/png;base64,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" alt=""></a></li>
+                        <li><a href=""><img id="snpicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQpOCJU8B2JPWgYIDDoGfRcAWhKnQ9UVGnKVT19zYzBQzO-9mq3YJ6_kdDTiFmUTDmQz0&usqp=CAU" alt=""></a></li>
+                        <li><a href=""><img id="tkticon" src="https://i.pinimg.com/originals/4b/89/4d/4b894de4d95836579928cfa8c5ca6de7.jpg" alt=""></a></li>
+                        <li><a href=""><img id="twicon" src="data:image/png;base64,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" alt=""></a></li>
+                        <li><a href=""><img id="yticon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEX///8AAAD7+/v19fX5+flLS0sWFhbd3d3x8fFXV1dOTk49PT0tLS0lJSVvb29DQ0M4ODiWlparq6t+fn53d3dqampiYmIaGhoMDAyFhYXPz8/m5ubZ2dnBwcGOjo4qKiq2trahoaGlpaW9vb3SEmwYAAADjklEQVR4nO3caVPiQBSF4bAlYYcgi0AQnP//H6dBpRilnKLTJ91p3ueTJZjilCS5ub0kCQAAAAAAAAAAAAAAAAAAAAAAAAAADdK+6F50vvv49cdbfH/Q/2rnu2y/L4v54XXxMpksV/1BrzedTofD4Ww2G41Gb+PxeL1ep+lm09ps0tT8bH7zZl4xr5t3mff2eoP+ajmZvCxeD/Oi3O+zXR5C8qw8HlbT0bqlsB5NV4djmfkK1y3nQ0mwn4bzslt3vLyY1pTuy7TIa8yXLTY15zvbLGr7vr56iPfhtZZ8eV1n3z3DGr6qXZ8BTUT9JWfpNWCrtVQHLDwHbLUKcULf+QxtwLnveMZcGbA99h3PGCvL1a3vdBdbYcKJ73AXE13ATuo73EXakSXMfGf7pKtPT76jfTrJEoZxGipPRB/PTPdsVAHbvpNdqe6IYdwNz1R3xKPvYFdHUcKT72BXqovpynewq5Uo4cx3sKuZKGEYNdtZKkroO9cNTcDc7sOkheB/r2m52dbdScd9Z0BTe9ve8M2f5q6byJpbfmn5aS5/nL84TViGl9B8yV12WjUJbYu26wH27kqGoyThe9WE5lR2NSb3Lkloe0X85yBbN8Memp6p7fXw22GOLoo/zTDbwk1Ck7F6r2AhSWjbpblzqFPVhJpOje2V8N6x2hXLHM3jk8uEpgQ4hJew7zRhtTKn34iESbKzLnOaktCUcpYH1SQcCBKaEsAq46BBCU3GUewJk+TPw2WOJmFPltCUOQ+W5M1LmD34Bek1LGH2cDHRrIQ7i4JXk1BzpdlZPbI051rasXwka0rCjnX13YyEVRrFmoRu69L2qcoE/wZU3kW1TkbwCY9VB2s0CZ094z9ehv4QdBejdNEx1SR00mvbuhkq1/TaHPRLt7Z3nO80/dLKPW+HIzOannfFcYvHHyB+oRm3qDT2ZN9Wu0sz9lRh/HDndgRYNX5oPQbsfBQ/sFHuVLFGQ5MwnMmXqrkYocxjP9PMp7GcEyUhWoboO9YNTcAnmJsY//zS+OcIn3wHu1LN845/rn44t3zVeov418zEv+7pCdaunXxH+6RbfxhK7a1bQxr/OuBATkThWu5A7ojK9fjx76kQ/74YQTwFawM+wf408e8x9AT7RMW/11cS/35tyRPsuZfEv2/iReR7X36Jev/SGzHvQfu7ePYRBgAAAAAAAAAAAAAAAAAAAAAAAADgxl8N8VIYvBmwQAAAAABJRU5ErkJggg==" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>
